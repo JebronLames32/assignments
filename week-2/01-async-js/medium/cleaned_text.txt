@@ -1,0 +1,4 @@
+Creating a test file here to test the program
+I am creating a test file here to test the program
+Maybe I should add some more text here to make it longer and more interesting
+I will output the results to a file called cleaned_text.txt
