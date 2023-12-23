@@ -5,6 +5,15 @@
  */
 
 function sleep(milliseconds) {
+    return new Promise((resolve,reject)=>{
+        let start = new Date().getTime();
+        let end = start;
+        // have to make this part synchronous for the thread to be busy
+        while(end < start + milliseconds){
+            end = new Date().getTime();
+        }
+        resolve();
+    })
 }
 
 module.exports = sleep;
